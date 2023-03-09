@@ -1,0 +1,224 @@
+.alinhamento {
+}
+
+
+.navigation {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+}
+
+.logo {
+    
+    font-weight: bold;
+    /* margin-left: 4.5%; */
+}
+
+.logourl {text-decoration: none;color: #335576;}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    color: #335576;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.urlnav {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* li {
+    width: 800%; 
+} */
+
+.supertest{display: flex;}
+
+.ullign {display: flex;width: 300px;justify-content: space-between;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background-color: #FEFAF5;
+    padding: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.texthead {
+    color: #335576;
+    width: 60%
+}
+
+.textparagraph {
+    font-size: 13px;
+    color: #335576;
+    font-weight: 500;
+    width: 70%
+}
+
+
+
+
+
+
+
+
+.hawaiitext {align-self:flex-start;
+    position: relative;right: 150%;bottom: 75%;}
+
+ h1{font-size: 70px;margin: 0;color: #FFFFFF;}
+
+
+.hawaiicard {
+    background-image: url(/assets/images/hawaii.jpg);
+    background-size:cover;
+    background-position:center;
+    max-height: 100%;
+    height:700px;
+    display: flex;
+    /* padding-left: 25%;
+    padding-right: 25%; */
+    gap: 30px; 
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center
+
+    
+    
+}
+
+.cardh {list-style-type: none;padding: 0;}
+
+
+
+.back{background-color: #FFFFFF;
+display: flex;text-align: center; 
+border-radius: 5px; 
+/* position: relative; top:50px; right: 200px; */
+}
+
+
+.colorunerline {
+    text-decoration: none;
+    color: black;
+   border-bottom: 3px solid black;font-weight: 600;}
+
+
+.color { text-decoration: none;
+    color: black;background-color:#FEFAF5; margin-top: 30px;width: 180px; height: 35px ; }
+
+.allcards {display: flex;gap: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+.FOOter {
+    display: flex;
+    background-color: #FEFAF5;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+.contact {}
+
+.hours {}
+
+.social {
+    display: flex;
+}
+
+.HOURSP {
+    margin-RIGHT: 20PX;
+    font-size: 10px;
+    color: #335576;
+}
+
+.DAYS {
+    display: flex
+}
+
+.DAYSSMALL {
+    color: #DB7A4E;
+    font-sizE: 10PX
+}
+
+.DAYSSMALLl {
+    display: none;
+}
+
+.logos {
+    /* margin-top: 35px;  */
+    display: flexbox;
+}
+
+.sociallogos {
+    max-width: 100%;
+    height: 20px;
+    display: flex;
+}
+
+h2 {
+    color: #335576;
+}
