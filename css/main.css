@@ -36,6 +36,12 @@
 
 }
 
+.urlnavh {
+    text-decoration: none;
+    color: black; border-bottom: 3px solid #DB7A4E;padding-bottom: 5px;
+}
+
+
 /* li {
     width: 800%; 
 } */
@@ -169,7 +175,8 @@
     justify-content: space-evenly;
     padding-left: 10%;
     padding-right: 10%;
-
+    height: 192px;
+    align-items: center
 
 }
 
