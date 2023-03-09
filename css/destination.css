@@ -36,6 +36,13 @@
 
 }
 
+.urlnavhh {
+    text-decoration: none;
+    color: black; border-bottom: 3px solid #DB7A4E;padding-bottom: 5px;
+}
+
+
+
 /* li {
     width: 800%; 
 } */
@@ -145,7 +152,7 @@
 
 .back{background-color: #FFFFFF;
 display: flex;text-align: center; 
-border-radius: 5px; 
+border-radius: 5px; padding: 5px;padding-bottom: 50px;
 /* position: relative; top:50px; right: 200px; */
 }
 
@@ -157,7 +164,7 @@ border-radius: 5px;
 
 
 .color { text-decoration: none;
-    color: black;background-color:#FEFAF5; margin-top: 30px;width: 180px; height: 35px ; }
+    color: black;background-color:#FEFAF5; margin-top: 30px;width: 250px; height: 35px ; }
 
 .allcards {display: flex;gap: 30px;}
 
@@ -177,7 +184,8 @@ border-radius: 5px;
     justify-content: space-evenly;
     padding-left: 10%;
     padding-right: 10%;
-
+    height: 192px;
+    align-items: center
 
 }
 
