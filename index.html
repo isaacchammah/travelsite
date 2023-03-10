@@ -13,69 +13,72 @@
 
     <body>
 
-        <nav class="navigation">
-            <ul class="nav">
+        <header class="header">
+            <ul class="header__items">
                 <div>
-                    <li class="logo alinhamento"> <a class="logourl" href="/index.html"> Travel Site </a></li>
+                    <li class="header__items--logo"> <a class="header__items--logo--atributte" href="/index.html">
+                            Travel Site </a></li>
                 </div>
-                <div class="supertest">
-                    <div class="ullign">
-                    <li> <a class="urlnavh" href="/index.html">Home</a></li>
-                    <li> <a class="urlnav" href="Pages/hawaii.html">Hawaii </a></li>
-                    <li> <a class="urlnav" href="Pages/iceland.html">Iceland</a></li>
-                    <li> <a class="urlnav" href="Pages/greece.html">Greece</a></li>
+                <div class="header__items__nav">
+                    <div class="header__items__nav--flex">
+                        <li> <a class="header__items__nav--flex--hawaii-border" href="/index.html">Home</a></li>
+                        <li> <a class="header__items__nav--flex--no-border" href="Pages/hawaii.html">Hawaii </a></li>
+                        <li> <a class="header__items__nav--flex--no-border" href="Pages/iceland.html">Iceland</a></li>
+                        <li> <a class="header__items__nav--flex--no-border" href="Pages/greece.html">Greece</a></li>
                     </div>
                 </div>
             </ul>
-        </nav>
-
-        <header class="header">
-            <div class="block alinhamento">
-                <h1 class=texthead>Travelling Comes With Endless Discoveries</h1>
-                <p class="textparagraph"> Don’t let your dreams be just dreams. Experience the world by booking
-                    a vacation with us now. </p>
-                <button class=button type="button">Get Started</button>
-            </div>
-            <img class="heroimage" src="/assets/images/hero.png" alt="hero">
         </header>
 
-        <section CLASS="SECTION">
-            <h2 class="textmiddle">Recommendations</h2>
-            <div class="cards">
+        <section class="hero">
+            <div class="hero-text">
+                <h1 class="hero-text__title">Travelling Comes With Endless Discoveries</h1>
+                <p class="hero-text__paragraph"> Don’t let your dreams be just dreams. Experience the world by booking
+                    a vacation with us now. </p>
+                <button class="hero-text__button" type="button">Get Started</button>
+            </div>
+            <img class="hero__image" src="/assets/images/hero.png" alt="hero">
+        </section>
 
-                <div>
-                    <a class=nav_item href="Pages/hawaii.html">
-                        <div class="hawaiicard">
+        <section class="cards-section">
+            <h2 class="cards-section__text">Recommendations</h2>
+            <div class="cards-section__cards">
 
+                <div class="cards-section__cards--border">
+                    <a class="cards-section__cards--border--atributte" href="Pages/hawaii.html">
+                        <div class="cards-section__cards--border--atributte--hawaii">
                             <div class="container">
-                                <a class=nav_item href="Pages/hawaii.html">
-                                    <p> <a class="nav_item_text" href="Pages/hawaii.html">Hawaii</a></p>
-                                </a>
-                            </div>
-
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <a class="nav_item" href="Pages/iceland.html">
-                        <div class="icelandcard">
-                            <div class="container">
-                                <p> <a class="nav_item_text" href="Pages/iceland.html">Iceland </a></p>
+                                <div class="container2">
+                                    <p> Hawaii</p>
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
 
-                <div>
-                    <a class="nav_item" href="Pages/greece.html">
-                        <div class="greececard">
+                <div class="border">
+                    <a class="cards-section__cards--border--atributte"" href="Pages/iceland.html">
+                        <div class="cards-section__cards--border--atributte--iceland">
                             <div class="container">
-                                <p> <a class="nav_item_text" href="Pages/greece.html">Greece </a></p>
+                                <div class="container2">
+                                    <p class> Iceland </p>
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
+                <div class="border">
+                    <a class="cards-section__cards--border--atributte"" href="Pages/greece.html">
+                        <div class="cards-section__cards--border--atributte--greece">
+                            <div class="container">
+                                <div class="container2">
+                                    <p> Greece </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </a>
             </div>
         </section>
 
