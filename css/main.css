@@ -4,7 +4,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .header__items {
@@ -12,20 +12,20 @@
     display: flex;
     color: #335576;
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
+   width: 25%;
+   padding-right: 6%;
 }
 
 .header__items--logo {
-    font-weight: bold;
-    
+    font-weight: bold; color: #335576;padding-left: 6%;
 }
 
 .header__items--logo--atributte {text-decoration: none;color: #335576;}
 
-.header__items__nav {display: flex;}
+/* .header__items__nav--flex {display: flex;width: 100%;justify-content: space-between;  list-style-type: none;
+    } */
 
-.header__items__nav--flex {display: flex;width: 300px;justify-content: space-between;}
+
 
 .header__items__nav--flex--hawaii-border {
     text-decoration: none;
