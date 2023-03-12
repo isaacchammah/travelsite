@@ -26,8 +26,8 @@
 
 .header__menu-items--current-page {
     color: black;
-    border-bottom: 3px solid #DB7A4E;
-    padding-bottom: 5px;
+    border-bottom: .1875rem solid #DB7A4E;
+    padding-bottom: .3125rem;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 4.375rem;
     margin: 0;
     color: #FFFFFF;
 }
@@ -57,9 +57,9 @@ h1 {
     background-image: url(/assets/images/hawaii.jpg);
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100vh;
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     flex-direction: column;
     align-items: center;
     justify-content: center
@@ -69,9 +69,9 @@ h1 {
     background-image: url(/assets/images/iceland.jpg);
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100vh;
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     flex-direction: column;
     align-items: center;
     justify-content: center
@@ -81,9 +81,9 @@ h1 {
     background-image: url(/assets/images/greece.jpg);
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100vh;
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     flex-direction: column;
     align-items: center;
     justify-content: center
@@ -92,9 +92,9 @@ h1 {
 .itinerary__day {
     width: 100%;
     font-weight: 600;
-    border-bottom: 3px solid black;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    border-bottom: .1875rem solid black;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
 .itinerary__activitys {
@@ -109,9 +109,9 @@ h1 {
     display: flex;
     text-align: center;
     flex-direction: column;
-    border-radius: 5px;
-    padding: 10px;
-    padding-bottom: 50px;
+    border-radius: .3125rem;
+    padding: .625rem;
+    padding-bottom: 3.125rem;
     width: 18vw;
 }
 
@@ -119,8 +119,8 @@ h1 {
     text-decoration: none;
     color: black;
     background-color: #FEFAF5;
-    margin-top: 30px;
-    height: 35px;
+    margin-top: 1.875rem;
+    height: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -128,7 +128,7 @@ h1 {
 
 .itinerary {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .footer {
@@ -151,7 +151,7 @@ h1 {
 
 .footer__email {
     margin-right: 8%;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;
 }
 
@@ -168,7 +168,7 @@ h1 {
 
 .footer__operating-time {
     margin-RIGHT: 20PX;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;
 }
 
@@ -188,11 +188,11 @@ h3 {
 .footer__facebook-logo,
 .footer__twitter-logo {
     margin-RIGHT: 35PX;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;
 }
 
 .footer__social-text {
     position: relative;
-    bottom: 6px;
+    bottom: .375rem;
 }

@@ -30,8 +30,8 @@ nav {
 
 .header__menu-items--current-page {
     color: black;
-    border-bottom: 3px solid #DB7A4E;
-    padding-bottom: 5px;
+    border-bottom: .1875rem solid #DB7A4E;
+    padding-bottom: .3125rem;
 }
 
 .hero-banner {
@@ -57,7 +57,7 @@ nav {
 }
 
 .hero-banner__paragraph {
-    font-size: 13px;
+    font-size: .8125rem;
     color: #335576;
     font-weight: 500;
     width: 80%
@@ -66,10 +66,12 @@ nav {
 .button {
     outline: none;
     background-color: #DB7A4E;
-    border-radius: 15px;
+    border-radius: .9375rem;
     color: #FFFFFF;
-    padding: 7px 30px;
-    border: none
+    padding: .4375rem 1.875rem;
+    border: none;
+    position: relative;
+    top:.625rem
 }
 
 .hero-banner__image {
@@ -95,15 +97,15 @@ nav {
 }
 
 .card {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border: .0625rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.2);
+    border-radius: .3125rem;
 }
 
 .card__image--hawaii {
     background-image: url(/assets/images/hawaii.jpg);
     background-size: cover;
-    border-radius: 5px;
+    border-radius: .3125rem;
     width: 18vw;
     height: 50vh;
 }
@@ -111,7 +113,7 @@ nav {
 .card__image--iceland {
     background-image: url(/assets/images/iceland.jpg);
     background-size: cover;
-    border-radius: 5px;
+    border-radius: .3125rem;
     width: 18vw;
     height: 50vh;
 }
@@ -119,7 +121,7 @@ nav {
 .card__image--greece {
     background-image: url(/assets/images/greece.jpg);
     background-size: cover;
-    border-radius: 5px;
+    border-radius: .3125rem;
     width: 18vw;
     height: 50vh;
 
@@ -156,7 +158,7 @@ nav {
 
 .footer__email {
     margin-right: 8%;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;
 }
 
@@ -171,7 +173,7 @@ nav {
 }
 
 .footer__operating-time  { margin-RIGHT: 20PX;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;}
 
 
@@ -186,7 +188,7 @@ h2, h3 {
 }
 
 .footer__instagram-logo, .footer__facebook-logo, .footer__twitter-logo { margin-RIGHT: 35PX;
-    font-size: 10px;
+    font-size: .625rem;
     color: #335576;}
 
-.footer__social-text {position: relative;bottom: 6px;}
+.footer__social-text {position: relative;bottom: .375rem;}
