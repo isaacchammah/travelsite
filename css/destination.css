@@ -90,29 +90,38 @@ h1 {
     justify-content: center
 }
 
+/* .itinerary__day {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+} */
 
-.itinerary__card {
+.itinerary__day {width: 100%;font-weight: 600;border-bottom: 3px solid black;margin-bottom:0px;margin-top: 0px;}
+
+
+
+
+.itinerary__activitys{
     list-style-type: none;
     padding: 0;
     width: 100%;
+    margin-top: 0;
 }
 
 .itinerary__layout{
     background-color: #FFFFFF;
     display: flex;
     text-align: center;
+    flex-direction: column;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
     padding-bottom: 50px;
     width: 220px;
+    
 }
 
-.itinerary__day {
-    text-decoration: none;
-    color: black;
-    border-bottom: 3px solid black;
-    font-weight: 600;
-}
+
 
 
 .itinerary__activity {
