@@ -66,7 +66,7 @@ h1 {
     justify-content: center
 }
 
-.icelandcard {
+.travel-section--destination-iceland {
     background-image: url(/assets/images/iceland.jpg);
     background-size: cover;
     background-position: center;
@@ -78,7 +78,7 @@ h1 {
     justify-content: center
 }
 
-.greececard {
+.travel-section--destination-greece {
     background-image: url(/assets/images/greece.jpg);
     background-size: cover;
     background-position: center;
