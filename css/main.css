@@ -7,29 +7,32 @@
     flex-direction: row;
 }
 
-.header__items {
+.header__navagation {
     list-style-type: none;
     display: flex;
     color: black;
     justify-content: space-between;
-   width: 25%;
+   width: 100%; padding-left: 0;
 }
+
+nav{width: 25%;}
 
 .header__logo {
     font-weight: bold; 
 }
 
-.header__logo--atributte {color: #335576;}
+.header__logo-link {color: #335576;}
 
-.header__items--hawaii-border{
+.header__navagation--current-page{
     color: black; border-bottom: 3px solid #DB7A4E;padding-bottom: 5px;
 }
 
-.hero {
+.main {
     background-color: #FEFAF5;
     padding: 5% 0 5% 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .hero-text {
@@ -38,6 +41,7 @@
     justify-content: center;
     align-content: center;
     align-items: flex-start;
+    text-align: left;
 }
 
 .hero-text__title{
@@ -61,7 +65,7 @@
     border: none
 }
 
-.hero__image {
+.main__image {
     height: 300px;
 }
 
@@ -77,9 +81,9 @@
 
 .cards-section__cards {
     display: flex;
-    padding-bottom: 60px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
     justify-content: space-evenly; 
 }
 
@@ -94,33 +98,28 @@
 
 .card__image--hawaii {
     background-image: url(/assets/images/hawaii.jpg);
-    background-size: cover;border-radius: 5px;  
+    background-size: cover;border-radius: 5px;  width: 220px;
+    height: 320px;
 }
 
 .card__image--iceland {
     background-image: url(/assets/images/iceland.jpg);
-    background-size: cover;border-radius: 5px;
+    background-size: cover;border-radius: 5px;width: 220px;
+    height: 320px;
 }
 
 .card__image--greece {
     background-image: url(/assets/images/greece.jpg);
-    background-size: cover; border-radius: 5px;
+    background-size: cover; border-radius: 5px;  width: 220px;
+    height: 320px;
+    
 }
 
 .card__container {
-    width: 200px;
-    height: 320px;
     display: flex; flex-direction: row-reverse;
-    align-items: flex-end;
-}
-
-.card__box {
-    width: 50%;
+    align-items: flex-end; 
     color: #ffffff;
-    font-weight: bold;
-    display: flex; flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: center;
+    font-weight: bold; height:100%; width: 90%;
 }
 
 
@@ -129,7 +128,7 @@
     background-color: #FEFAF5;
     justify-content: space-evenly;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 15%;
     height: 192px;
     align-items: center
 }
@@ -153,13 +152,10 @@
 
 
 .DAYS {
-    display: flex
-}
-
-
-.social {
     display: flex;
+    align-items: flex-end;
 }
+
 
 .HOURSP {
     margin-RIGHT: 20PX;
@@ -179,14 +175,14 @@
 }
 
 .logos {
-    /* margin-top: 35px;  */
-    display: flexbox;
+    margin-top: 35px; 
+    display: flexbox
 }
 
 .sociallogos {
     max-width: 100%;
     height: 20px;
-    display: flex;
+    margin-top: 100%;
 }
 
 h2 {
