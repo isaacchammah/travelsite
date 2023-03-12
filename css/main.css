@@ -71,7 +71,7 @@ nav {
     padding: .4375rem 1.875rem;
     border: none;
     position: relative;
-    top:.625rem
+    top: .625rem
 }
 
 .hero-banner__image {
@@ -84,7 +84,6 @@ nav {
 }
 
 .cards-section__text {
-
     color: #335576;
 }
 
@@ -124,7 +123,6 @@ nav {
     border-radius: .3125rem;
     width: 18vw;
     height: 50vh;
-
 }
 
 .card__container {
@@ -146,7 +144,6 @@ nav {
     align-items: center
 }
 
-
 .footer__contact {
     display: flex;
 }
@@ -162,33 +159,44 @@ nav {
     color: #335576;
 }
 
-.footer__operating-hours, .footer__social {
+.footer__operating-hours,
+.footer__social {
     display: flex;
     align-items: flex-end;
 }
 
-.footer__operating-days{
+.footer__operating-days {
     color: #DB7A4E;
     font-size: 10PX
 }
 
-.footer__operating-time  { margin-RIGHT: 20PX;
+.footer__operating-time {
+    margin-RIGHT: 20PX;
     font-size: .625rem;
-    color: #335576;}
+    color: #335576;
+}
 
-
-.footer__instagram-link, .footer__facebook-link, .footer__twitter-link {
-    
+.footer__instagram-link,
+.footer__facebook-link,
+.footer__twitter-link {
     height: 3vh;
     padding-top: 100%;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #335576;
 }
 
-.footer__instagram-logo, .footer__facebook-logo, .footer__twitter-logo { margin-RIGHT: 35PX;
+.footer__instagram-logo,
+.footer__facebook-logo,
+.footer__twitter-logo {
+    margin-RIGHT: 35PX;
     font-size: .625rem;
-    color: #335576;}
+    color: #335576;
+}
 
-.footer__social-text {position: relative;bottom: .375rem;}
+.footer__social-text {
+    position: relative;
+    bottom: .375rem;
+}
