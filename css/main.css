@@ -7,35 +7,42 @@
     flex-direction: row;
 }
 
-.header__navagation {
+.header__menu-items {
     list-style-type: none;
     display: flex;
     color: black;
     justify-content: space-between;
-   width: 100%; padding-left: 0;
+    width: 100%;
+    padding-left: 0;
 }
 
-nav{width: 25%;}
+nav {
+    width: 25%;
+}
 
 .header__logo {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.header__logo-link {color: #335576;}
-
-.header__navagation--current-page{
-    color: black; border-bottom: 3px solid #DB7A4E;padding-bottom: 5px;
+.header__logo-link {
+    color: #335576;
 }
 
-.main {
+.header__menu-items--current-page {
+    color: black;
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 5px;
+}
+
+.hero-banner {
     background-color: #FEFAF5;
-    padding: 5% 0 5% 0;
+    padding: 5% 0%;
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
 }
 
-.hero-text {
+.hero-banner__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,12 +51,12 @@ nav{width: 25%;}
     text-align: left;
 }
 
-.hero-text__title{
+.hero-banner__slogan {
     color: #335576;
     width: 50%
 }
 
-.hero-text__paragraph {
+.hero-banner__paragraph {
     font-size: 13px;
     color: #335576;
     font-weight: 500;
@@ -61,12 +68,12 @@ nav{width: 25%;}
     background-color: #DB7A4E;
     border-radius: 15px;
     color: #FFFFFF;
-    padding: 7px 30px 7px 30px;
+    padding: 7px 30px;
     border: none
 }
 
-.main__image {
-    height: 300px;
+.hero-banner__image {
+    height: 45vh;
 }
 
 .cards-section {
@@ -75,7 +82,7 @@ nav{width: 25%;}
 }
 
 .cards-section__text {
-   
+
     color: #335576;
 }
 
@@ -84,78 +91,81 @@ nav{width: 25%;}
     padding-bottom: 5%;
     padding-left: 13%;
     padding-right: 13%;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
-.card{
+.card {
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
 
-
-
-
 .card__image--hawaii {
     background-image: url(/assets/images/hawaii.jpg);
-    background-size: cover;border-radius: 5px;  width: 220px;
-    height: 320px;
+    background-size: cover;
+    border-radius: 5px;
+    width: 18vw;
+    height: 50vh;
 }
 
 .card__image--iceland {
     background-image: url(/assets/images/iceland.jpg);
-    background-size: cover;border-radius: 5px;width: 220px;
-    height: 320px;
+    background-size: cover;
+    border-radius: 5px;
+    width: 18vw;
+    height: 50vh;
 }
 
 .card__image--greece {
     background-image: url(/assets/images/greece.jpg);
-    background-size: cover; border-radius: 5px;  width: 220px;
-    height: 320px;
-    
+    background-size: cover;
+    border-radius: 5px;
+    width: 18vw;
+    height: 50vh;
+
 }
 
 .card__container {
-    display: flex; flex-direction: row-reverse;
-    align-items: flex-end; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
     color: #ffffff;
-    font-weight: bold; height:102%; width: 95%;
+    font-weight: bold;
+    height: 102%;
+    width: 95%;
 }
-
 
 .footer {
     display: flex;
     background-color: #FEFAF5;
     justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 15%;
-    height: 192px;
+    padding: 0% 12%;
+    height: 25vh;
     align-items: center
 }
 
 
-.contact {display: flex;}
+
+
+.contact {
+    display: flex;
+}
 
 .contact__container {
     color: #DB7A4E;
-    font-sizE: 10PX
+    font-size: 10PX
 }
 
-.contact__information{
-    margin-RIGHT: 20PX;
+.contact__information {
+    margin-right: 8%;
     font-size: 10px;
     color: #335576;
 }
-
-
-
-
 
 .DAYS {
     display: flex;
     align-items: flex-end;
 }
-
 
 .HOURSP {
     margin-RIGHT: 20PX;
@@ -163,25 +173,18 @@ nav{width: 25%;}
     color: #335576;
 }
 
-
-
 .DAYSSMALL {
     color: #DB7A4E;
-    font-sizE: 10PX
+    font-size: 10PX
 }
 
 .DAYSSMALLl {
     display: none;
 }
 
-.logos {
-    margin-top: 35px; 
-    display: flexbox
-}
-
 .sociallogos {
-    max-width: 100%;
-    height: 20px;
+    
+    height: 3vh;
     margin-top: 100%;
 }
 
