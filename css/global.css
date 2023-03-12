@@ -1,1 +1,3 @@
-body {font-family: verdana;padding: 0;margin: 0;}
+body {font-family: verdana; margin:0 }
+header, article {padding-right: 5%;padding-left: 5%;}
+a {text-decoration: none; color: black;}

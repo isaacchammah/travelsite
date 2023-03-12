@@ -164,7 +164,7 @@ border-radius: 5px; padding: 5px;padding-bottom: 50px;
 
 
 .color { text-decoration: none;
-    color: black;background-color:#FEFAF5; margin-top: 30px;width: 250px; height: 35px ; }
+    color: black;background-color:#FEFAF5; margin-top: 30px;width: 250px; height: 35px ; padding: 0 auto; }
 
 .allcards {display: flex;gap: 30px;}
 
